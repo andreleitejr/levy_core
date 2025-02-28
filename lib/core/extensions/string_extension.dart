@@ -3,7 +3,7 @@ extension DateToAgeExtension on String {
     final birthDate = DateTime.tryParse(this);
 
     if (birthDate == null) {
-      throw FormatException("Invalid date format");
+      throw const FormatException("Invalid date format");
     }
 
     final today = DateTime.now();
