@@ -17,7 +17,6 @@ dependencies:
 #      url: https://github.com/andreleitejr/levy_dependencies.git
 
   auto_route:
-  auto_route_generator:
   flutter_svg:
   google_maps_flutter:
   injectable:
@@ -29,6 +28,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  auto_route_generator: ^9.0.0
   flutter_lints: ^4.0.0
-  json_serializable:
-  injectable_generator:
+  injectable_generator: ^2.6.2
+  json_serializable: ^6.8.0
